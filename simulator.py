@@ -74,10 +74,10 @@ class Simulator:
             player_1=player_1,
             player_2=player_2,
             board_size=board_size,
-            display_ui=self.args.display,
+            # display_ui=self.args.display,
             display_delay=self.args.display_delay,
-            display_save=self.args.display_save,
-            display_save_path=self.args.display_save_path,
+            # display_save=self.args.display_save,
+            # display_save_path=self.args.display_save_path,
             autoplay=self.args.autoplay,
         )
 
