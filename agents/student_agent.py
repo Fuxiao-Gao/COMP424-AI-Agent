@@ -29,7 +29,6 @@ class StudentAgent(Agent):
     - opponent: 1 if the opponent is Player 1 (Blue), or 2 if the opponent is Player 2 (Brown).
     return a tuple (r,c) as the position of your next move
     """
-
     # Some simple code to help you with timing. Consider checking 
     # time_taken during your search and breaking with the best answer
     # so far when it nears 2 seconds.
@@ -37,18 +36,23 @@ class StudentAgent(Agent):
     
     alpha = float('-inf')
     beta = float('inf')
-    depth = np.sum(chess_board != 0) # depth is the number of turns made so far
+    depth = np.sum(chess_board != 0) - 4 # depth is the number of turns made so far
     max_depth = self.get_dynamic_max_depth(chess_board.shape[0], depth)
+    print(f"depth: {depth}, max_depth: {max_depth}")
     best_move = None
     best_score = float('-inf')
     
     # Get all valid moves for the player
     valid_moves = get_valid_moves(chess_board, player)
     
+    if not valid_moves:
+        return None # No valid moves available, pass turn
+    
     # Iterate through all valid moves
     for move in valid_moves:
-        new_board = execute_move(chess_board, move, player)
-        score = self.alpha_beta_pruning(new_board, opponent, player, max_depth - 1, alpha, beta)
+        simulated_board = deepcopy(chess_board)
+        execute_move(simulated_board, move, player)
+        score = self.alpha_beta_pruning(simulated_board, player, opponent, max_depth - 1, depth, alpha, beta)
         
         if score > best_score:
             best_score = score
@@ -63,19 +67,19 @@ class StudentAgent(Agent):
     
     return best_move
   
-  def alpha_beta_pruning(self, chess_board, player, opponent, depth, alpha, beta):
-    if depth == 0 or check_endgame(chess_board):
-        return self.evaluate_board(chess_board, player)
+  def alpha_beta_pruning(self, chess_board, player, opponent, max_depth, depth, alpha, beta):
+    if max_depth == 0 or check_endgame(chess_board, player, opponent):
+        return self.evaluate_board(chess_board, player, opponent, depth)
     
     valid_moves = get_valid_moves(chess_board, player)
     if not valid_moves:
-        return self.alpha_beta_pruning(chess_board, opponent, player, depth - 1, alpha, beta)
+        return self.alpha_beta_pruning(chess_board, opponent, player, max_depth - 1, alpha, beta)
     
     if player == self.max_player:
         max_eval = float('-inf')
         for move in valid_moves:
             new_board = execute_move(chess_board, move, player)
-            eval = self.alpha_beta_pruning(new_board, opponent, player, depth - 1, alpha, beta)
+            eval = self.alpha_beta_pruning(new_board, opponent, player, max_depth - 1, alpha, beta)
             max_eval = max(max_eval, eval)
             alpha = max(alpha, eval)
             if beta <= alpha:
@@ -85,14 +89,14 @@ class StudentAgent(Agent):
         min_eval = float('inf')
         for move in valid_moves:
             new_board = execute_move(chess_board, move, player)
-            eval = self.alpha_beta_pruning(new_board, opponent, player, depth - 1, alpha, beta)
+            eval = self.alpha_beta_pruning(new_board, opponent, player, max_depth - 1, alpha, beta)
             min_eval = min(min_eval, eval)
             beta = min(beta, eval)
             if beta <= alpha:
                 break
         return min_eval
     
-  def evaluate_board(self, chess_board, player, player_score, opponent_score, depth):
+  def evaluate_board(self, chess_board, player, opponent, depth):
     # Get dynamic weights based on depth and board size
     weights = self.get_dynamic_weights(depth, chess_board)
     w_coin, w_mobility, w_corner, w_stability = weights
@@ -103,14 +107,14 @@ class StudentAgent(Agent):
     corner_potential_score = self.corner_potential(chess_board, player)
     stability_score = self.stability(chess_board, player)
     
-    opponent_coin_parity_score = self.coin_parity(chess_board, 3 - player)
-    opponent_mobility_score = self.mobility(chess_board, 3 - player)
-    opponent_corner_potential_score = self.corner_potential(chess_board, 3 - player)
-    opponent_stability_score = self.stability(chess_board, 3 - player)
+    opponent_coin_parity_score = self.coin_parity(chess_board, opponent)
+    opponent_mobility_score = self.mobility(chess_board, opponent)
+    opponent_corner_potential_score = self.corner_potential(chess_board, opponent)
+    opponent_stability_score = self.stability(chess_board, opponent)
     
     my_score = w_coin * coin_parity_score + w_mobility * mobility_score + w_corner * corner_potential_score + w_stability * stability_score
     opponent_score = w_coin * opponent_coin_parity_score + w_mobility * opponent_mobility_score + w_corner * opponent_corner_potential_score + w_stability * opponent_stability_score
-    heuristic_score = my_score - opponent
+    heuristic_score = my_score - opponent_score
     
     return heuristic_score
 
@@ -216,7 +220,7 @@ class StudentAgent(Agent):
             new_row += d_row
             new_col += d_col
     
-  def find_x_sqaures(self, chess_board):
+  def find_x_squares(self, chess_board):
     '''
     Find the X-squares on the board <-- diagnoally adjacent to the corners
     4 X-squares on the board for N x N board
@@ -268,7 +272,7 @@ class StudentAgent(Agent):
       edges.append((i, board_size - 1))
     return
 
-def get_dynamic_weights(self, depth, chess_board):
+  def get_dynamic_weights(self, depth, chess_board):
     '''
     Get the dynamic weights for the evaluation function based on the depth and board size.
     Early game: mobility and coin parity are more important
@@ -291,7 +295,7 @@ def get_dynamic_weights(self, depth, chess_board):
     else:  
         return [0.1, 0.2, 0.3, 0.4]
 
-def get_dynamic_max_depth(self, board_size, depth):
+  def get_dynamic_max_depth(self, board_size, depth):
     '''
     Get the dynamic max depth based on the board size.
     the max depth decreases as the game progresses
