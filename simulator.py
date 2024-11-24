@@ -104,11 +104,21 @@ class Simulator:
         self.args.display = False
         with all_logging_disabled():
             for i in range(self.args.autoplay_runs):
+                print(f"Running simulation {i+1}/{self.args.autoplay_runs}")
                 swap_players = i % 2 == 0
-                board_size = self.valid_board_sizes[ np.random.randint(len(self.valid_board_sizes)) ] 
+                board_size = self.valid_board_sizes[ np.random.randint(len(self.valid_board_sizes)) ]
+                # log the board size
+                print(f"Board size: {board_size}")
                 p0_score, p1_score, p0_time, p1_time = self.run(
                     swap_players=swap_players, board_size=board_size
                 )
+                # if po_time exceeds 2 seconds, stop the simulation
+                if np.max(p1_time) > 2:
+                    print(
+                        f"Player 2, agent {self.args.player_1}, exceeded maximum turn time. Simulation stopped."
+                    )
+                    break
+                
                 if swap_players:
                     p0_score, p1_score, p0_time, p1_time = (
                         p1_score,

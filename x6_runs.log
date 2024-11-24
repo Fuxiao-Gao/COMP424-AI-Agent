@@ -1,0 +1,1383 @@
+depth: 5, max_depth: 4
+My AI's turn took  0.2386014461517334 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.10603690147399902 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.2367253303527832 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.2743396759033203 seconds.
+depth: 13, max_depth: 4
+My AI's turn took  0.33737826347351074 seconds.
+depth: 15, max_depth: 4
+My AI's turn took  0.5259265899658203 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.12207245826721191 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.03740811347961426 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.05798459053039551 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.08340120315551758 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.19878077507019043 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.18482398986816406 seconds.
+depth: 29, max_depth: 3
+My AI's turn took  0.12802362442016602 seconds.
+depth: 31, max_depth: 3
+My AI's turn took  0.09107232093811035 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.13866257667541504 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.06113290786743164 seconds.
+depth: 37, max_depth: 3
+My AI's turn took  0.09835267066955566 seconds.
+depth: 39, max_depth: 3
+My AI's turn took  0.02616286277770996 seconds.
+depth: 41, max_depth: 3
+My AI's turn took  0.06246757507324219 seconds.
+depth: 43, max_depth: 3
+My AI's turn took  0.017026901245117188 seconds.
+depth: 45, max_depth: 3
+My AI's turn took  0.005994319915771484 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.04831266403198242 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.009363174438476562 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.007925987243652344 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.008707523345947266 seconds.
+depth: 53, max_depth: 2
+My AI's turn took  0.006380558013916016 seconds.
+depth: 55, max_depth: 2
+My AI's turn took  0.005942583084106445 seconds.
+depth: 57, max_depth: 2
+My AI's turn took  0.004056453704833984 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.0029032230377197266 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.0011818408966064453 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.0004265308380126953 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.07011842727661133 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.1862490177154541 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.04157280921936035 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.049652099609375 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.21668767929077148 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  0.22636890411376953 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.08818268775939941 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.13236141204833984 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.11398482322692871 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.0926966667175293 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.16816353797912598 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.1121070384979248 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.2031712532043457 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.13701438903808594 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.03952527046203613 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.1358628273010254 seconds.
+depth: 36, max_depth: 3
+My AI's turn took  0.16688036918640137 seconds.
+depth: 38, max_depth: 3
+My AI's turn took  0.11315131187438965 seconds.
+depth: 40, max_depth: 3
+My AI's turn took  0.07188677787780762 seconds.
+depth: 42, max_depth: 3
+My AI's turn took  0.034279823303222656 seconds.
+depth: 44, max_depth: 3
+My AI's turn took  0.013342618942260742 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.020647048950195312 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.007299900054931641 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.003447294235229492 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.0021746158599853516 seconds.
+depth: 54, max_depth: 2
+My AI's turn took  0.001386880874633789 seconds.
+depth: 56, max_depth: 2
+My AI's turn took  0.0024945735931396484 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.0005950927734375 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.0010063648223876953 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.0009334087371826172 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.054198503494262695 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.0479581356048584 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.07621979713439941 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.12108731269836426 seconds.
+depth: 13, max_depth: 3
+My AI's turn took  0.045006752014160156 seconds.
+depth: 15, max_depth: 3
+My AI's turn took  0.018599271774291992 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.01553034782409668 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.020256996154785156 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.014111995697021484 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.01668715476989746 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.009599447250366211 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.00030684471130371094 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.010562419891357422 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.004424333572387695 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0005846023559570312 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.0005140304565429688 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.0001544952392578125 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.15810418128967285 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.2344052791595459 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  1.1731772422790527 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.9296345710754395 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.7848398685455322 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  0.9806523323059082 seconds.
+depth: 16, max_depth: 4
+My AI's turn took  0.7872209548950195 seconds.
+depth: 18, max_depth: 4
+My AI's turn took  1.819880485534668 seconds.
+depth: 20, max_depth: 4
+My AI's turn took  2.425689458847046 seconds.
+depth: 22, max_depth: 4
+My AI's turn took  4.291225910186768 seconds.
+depth: 24, max_depth: 4
+My AI's turn took  4.149885177612305 seconds.
+depth: 26, max_depth: 4
+My AI's turn took  5.108654737472534 seconds.
+depth: 28, max_depth: 4
+My AI's turn took  1.4272758960723877 seconds.
+depth: 30, max_depth: 4
+My AI's turn took  4.747671127319336 seconds.
+depth: 32, max_depth: 4
+My AI's turn took  3.233827829360962 seconds.
+depth: 34, max_depth: 4
+My AI's turn took  3.661998748779297 seconds.
+depth: 36, max_depth: 4
+My AI's turn took  1.7044870853424072 seconds.
+depth: 38, max_depth: 4
+My AI's turn took  1.5714709758758545 seconds.
+depth: 40, max_depth: 4
+My AI's turn took  2.543168783187866 seconds.
+depth: 42, max_depth: 4
+My AI's turn took  1.7111144065856934 seconds.
+depth: 44, max_depth: 4
+My AI's turn took  1.7579798698425293 seconds.
+depth: 46, max_depth: 4
+My AI's turn took  1.3211936950683594 seconds.
+depth: 48, max_depth: 4
+My AI's turn took  1.4968485832214355 seconds.
+depth: 50, max_depth: 4
+My AI's turn took  2.746415615081787 seconds.
+depth: 52, max_depth: 4
+My AI's turn took  1.6729340553283691 seconds.
+depth: 54, max_depth: 4
+My AI's turn took  1.0370211601257324 seconds.
+depth: 56, max_depth: 4
+My AI's turn took  1.8700389862060547 seconds.
+depth: 58, max_depth: 4
+My AI's turn took  1.434823989868164 seconds.
+depth: 60, max_depth: 4
+My AI's turn took  1.1241071224212646 seconds.
+depth: 62, max_depth: 4
+My AI's turn took  0.9792625904083252 seconds.
+depth: 64, max_depth: 4
+My AI's turn took  1.1575782299041748 seconds.
+depth: 66, max_depth: 4
+My AI's turn took  0.6459946632385254 seconds.
+depth: 68, max_depth: 4
+My AI's turn took  0.8513433933258057 seconds.
+depth: 70, max_depth: 4
+My AI's turn took  0.8591599464416504 seconds.
+depth: 72, max_depth: 3
+My AI's turn took  0.33910703659057617 seconds.
+depth: 74, max_depth: 3
+My AI's turn took  0.3885166645050049 seconds.
+depth: 76, max_depth: 3
+My AI's turn took  0.34555530548095703 seconds.
+depth: 78, max_depth: 3
+My AI's turn took  0.4129922389984131 seconds.
+depth: 80, max_depth: 3
+My AI's turn took  0.2520163059234619 seconds.
+depth: 82, max_depth: 3
+My AI's turn took  0.256483793258667 seconds.
+depth: 84, max_depth: 3
+My AI's turn took  0.26811909675598145 seconds.
+depth: 86, max_depth: 3
+My AI's turn took  0.2257981300354004 seconds.
+depth: 88, max_depth: 3
+My AI's turn took  0.27245616912841797 seconds.
+depth: 90, max_depth: 3
+My AI's turn took  0.3898582458496094 seconds.
+depth: 92, max_depth: 3
+My AI's turn took  0.32364439964294434 seconds.
+depth: 94, max_depth: 3
+My AI's turn took  0.28725719451904297 seconds.
+depth: 96, max_depth: 3
+My AI's turn took  0.19192886352539062 seconds.
+depth: 98, max_depth: 3
+My AI's turn took  0.23782825469970703 seconds.
+depth: 100, max_depth: 3
+My AI's turn took  0.29555439949035645 seconds.
+depth: 102, max_depth: 3
+My AI's turn took  0.20141887664794922 seconds.
+depth: 104, max_depth: 3
+My AI's turn took  0.241438627243042 seconds.
+depth: 106, max_depth: 3
+My AI's turn took  0.16141366958618164 seconds.
+depth: 108, max_depth: 3
+My AI's turn took  0.2940499782562256 seconds.
+depth: 110, max_depth: 3
+My AI's turn took  0.36430788040161133 seconds.
+depth: 112, max_depth: 3
+My AI's turn took  0.1460590362548828 seconds.
+depth: 114, max_depth: 3
+My AI's turn took  0.08045005798339844 seconds.
+depth: 116, max_depth: 3
+My AI's turn took  0.06604743003845215 seconds.
+depth: 118, max_depth: 3
+My AI's turn took  0.136763334274292 seconds.
+depth: 120, max_depth: 3
+My AI's turn took  0.14404511451721191 seconds.
+depth: 122, max_depth: 3
+My AI's turn took  0.09096908569335938 seconds.
+depth: 124, max_depth: 3
+My AI's turn took  0.1735832691192627 seconds.
+depth: 126, max_depth: 3
+My AI's turn took  0.08704400062561035 seconds.
+depth: 128, max_depth: 3
+My AI's turn took  0.07236266136169434 seconds.
+depth: 130, max_depth: 3
+My AI's turn took  0.03433799743652344 seconds.
+depth: 132, max_depth: 3
+My AI's turn took  0.05729103088378906 seconds.
+depth: 134, max_depth: 3
+My AI's turn took  0.05395102500915527 seconds.
+depth: 136, max_depth: 3
+My AI's turn took  0.029318809509277344 seconds.
+depth: 138, max_depth: 3
+My AI's turn took  0.025187969207763672 seconds.
+depth: 140, max_depth: 3
+My AI's turn took  0.007171154022216797 seconds.
+depth: 142, max_depth: 3
+My AI's turn took  0.0015816688537597656 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.27689146995544434 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.30714917182922363 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.8365793228149414 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.47191333770751953 seconds.
+depth: 13, max_depth: 4
+My AI's turn took  0.6000227928161621 seconds.
+depth: 15, max_depth: 4
+My AI's turn took  1.0288841724395752 seconds.
+depth: 17, max_depth: 4
+My AI's turn took  2.775979995727539 seconds.
+depth: 19, max_depth: 4
+My AI's turn took  1.448756217956543 seconds.
+depth: 21, max_depth: 4
+My AI's turn took  0.8593378067016602 seconds.
+depth: 23, max_depth: 4
+My AI's turn took  2.7931344509124756 seconds.
+depth: 25, max_depth: 4
+My AI's turn took  3.305563449859619 seconds.
+depth: 27, max_depth: 4
+My AI's turn took  1.7934000492095947 seconds.
+depth: 29, max_depth: 4
+My AI's turn took  5.346574306488037 seconds.
+depth: 31, max_depth: 4
+My AI's turn took  3.2502353191375732 seconds.
+depth: 33, max_depth: 4
+My AI's turn took  3.3875794410705566 seconds.
+depth: 35, max_depth: 4
+My AI's turn took  2.6054131984710693 seconds.
+depth: 37, max_depth: 4
+My AI's turn took  1.2976796627044678 seconds.
+depth: 39, max_depth: 4
+My AI's turn took  1.2224326133728027 seconds.
+depth: 41, max_depth: 4
+My AI's turn took  1.2494792938232422 seconds.
+depth: 43, max_depth: 4
+My AI's turn took  4.960456609725952 seconds.
+depth: 45, max_depth: 4
+My AI's turn took  3.745448112487793 seconds.
+depth: 47, max_depth: 4
+My AI's turn took  4.5364768505096436 seconds.
+depth: 49, max_depth: 4
+My AI's turn took  3.171604633331299 seconds.
+depth: 51, max_depth: 4
+My AI's turn took  3.0677764415740967 seconds.
+depth: 53, max_depth: 4
+My AI's turn took  3.530325412750244 seconds.
+depth: 55, max_depth: 4
+My AI's turn took  0.9886178970336914 seconds.
+depth: 57, max_depth: 4
+My AI's turn took  2.163560628890991 seconds.
+depth: 59, max_depth: 4
+My AI's turn took  1.7792258262634277 seconds.
+depth: 61, max_depth: 4
+My AI's turn took  1.4561986923217773 seconds.
+depth: 63, max_depth: 4
+My AI's turn took  0.8176581859588623 seconds.
+depth: 65, max_depth: 4
+My AI's turn took  5.4411866664886475 seconds.
+depth: 67, max_depth: 4
+My AI's turn took  3.210244655609131 seconds.
+depth: 69, max_depth: 4
+My AI's turn took  1.8391566276550293 seconds.
+depth: 71, max_depth: 4
+My AI's turn took  2.673368453979492 seconds.
+depth: 73, max_depth: 3
+My AI's turn took  1.4461932182312012 seconds.
+depth: 75, max_depth: 3
+My AI's turn took  1.1291444301605225 seconds.
+depth: 77, max_depth: 3
+My AI's turn took  0.7875792980194092 seconds.
+depth: 79, max_depth: 3
+My AI's turn took  0.8072342872619629 seconds.
+depth: 81, max_depth: 3
+My AI's turn took  0.6804628372192383 seconds.
+depth: 83, max_depth: 3
+My AI's turn took  0.6211919784545898 seconds.
+depth: 85, max_depth: 3
+My AI's turn took  0.548335075378418 seconds.
+depth: 87, max_depth: 3
+My AI's turn took  0.6452455520629883 seconds.
+depth: 89, max_depth: 3
+My AI's turn took  0.47306132316589355 seconds.
+depth: 91, max_depth: 3
+My AI's turn took  0.6829409599304199 seconds.
+depth: 93, max_depth: 3
+My AI's turn took  0.9126095771789551 seconds.
+depth: 95, max_depth: 3
+My AI's turn took  0.8568620681762695 seconds.
+depth: 97, max_depth: 3
+My AI's turn took  0.796720027923584 seconds.
+depth: 99, max_depth: 3
+My AI's turn took  0.765305757522583 seconds.
+depth: 101, max_depth: 3
+My AI's turn took  0.9547858238220215 seconds.
+depth: 103, max_depth: 3
+My AI's turn took  1.5493793487548828 seconds.
+depth: 105, max_depth: 3
+My AI's turn took  0.5792486667633057 seconds.
+depth: 107, max_depth: 3
+My AI's turn took  0.4692065715789795 seconds.
+depth: 109, max_depth: 3
+My AI's turn took  0.4004998207092285 seconds.
+depth: 111, max_depth: 3
+My AI's turn took  0.28897547721862793 seconds.
+depth: 113, max_depth: 3
+My AI's turn took  0.24896502494812012 seconds.
+depth: 115, max_depth: 3
+My AI's turn took  0.17360210418701172 seconds.
+depth: 117, max_depth: 3
+My AI's turn took  0.1257328987121582 seconds.
+depth: 119, max_depth: 3
+My AI's turn took  0.1273963451385498 seconds.
+depth: 121, max_depth: 3
+My AI's turn took  0.141618013381958 seconds.
+depth: 122, max_depth: 3
+My AI's turn took  0.1141519546508789 seconds.
+depth: 124, max_depth: 3
+My AI's turn took  0.0978691577911377 seconds.
+depth: 126, max_depth: 3
+My AI's turn took  0.08200383186340332 seconds.
+depth: 128, max_depth: 3
+My AI's turn took  0.045232534408569336 seconds.
+depth: 129, max_depth: 3
+My AI's turn took  0.036307334899902344 seconds.
+depth: 130, max_depth: 3
+My AI's turn took  0.05142354965209961 seconds.
+depth: 132, max_depth: 3
+My AI's turn took  0.02782297134399414 seconds.
+depth: 134, max_depth: 3
+My AI's turn took  0.0005965232849121094 seconds.
+depth: 135, max_depth: 3
+My AI's turn took  0.000568389892578125 seconds.
+depth: 136, max_depth: 3
+My AI's turn took  0.019484519958496094 seconds.
+depth: 138, max_depth: 3
+My AI's turn took  0.007294416427612305 seconds.
+depth: 140, max_depth: 3
+My AI's turn took  0.0003857612609863281 seconds.
+depth: 141, max_depth: 3
+My AI's turn took  0.001821279525756836 seconds.
+depth: 143, max_depth: 3
+My AI's turn took  0.00037670135498046875 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.044680118560791016 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.05429267883300781 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.11258053779602051 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.10339856147766113 seconds.
+depth: 12, max_depth: 3
+My AI's turn took  0.016205310821533203 seconds.
+depth: 14, max_depth: 3
+My AI's turn took  0.028210163116455078 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.02913975715637207 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.030757665634155273 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.02865433692932129 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.017959117889404297 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.01592397689819336 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.014172792434692383 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.008613348007202148 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.004172086715698242 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0021657943725585938 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.0005984306335449219 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.05409121513366699 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.047991037368774414 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.07605767250061035 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.12079453468322754 seconds.
+depth: 13, max_depth: 3
+My AI's turn took  0.04499006271362305 seconds.
+depth: 15, max_depth: 3
+My AI's turn took  0.018736600875854492 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.015518665313720703 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.020082473754882812 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.014065027236938477 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.01663970947265625 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.009594917297363281 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.00031447410583496094 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.006524562835693359 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.004448413848876953 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0006096363067626953 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.0005183219909667969 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.00015735626220703125 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.07079005241394043 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.18709039688110352 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.04167532920837402 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.050000905990600586 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.19074392318725586 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  0.22280597686767578 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.08899188041687012 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.13356471061706543 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.11481189727783203 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.0839076042175293 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.1547842025756836 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.1121819019317627 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.18156909942626953 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.13796544075012207 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.03975391387939453 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.13009285926818848 seconds.
+depth: 36, max_depth: 3
+My AI's turn took  0.1605076789855957 seconds.
+depth: 38, max_depth: 3
+My AI's turn took  0.11367058753967285 seconds.
+depth: 40, max_depth: 3
+My AI's turn took  0.07273435592651367 seconds.
+depth: 42, max_depth: 3
+My AI's turn took  0.03483462333679199 seconds.
+depth: 44, max_depth: 3
+My AI's turn took  0.013074874877929688 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.02099466323852539 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.007290840148925781 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.0035181045532226562 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.0021698474884033203 seconds.
+depth: 54, max_depth: 2
+My AI's turn took  0.0014214515686035156 seconds.
+depth: 56, max_depth: 2
+My AI's turn took  0.0024712085723876953 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.0005893707275390625 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.0009987354278564453 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.0008966922760009766 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.05453228950500488 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.048013925552368164 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.07611942291259766 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.12101030349731445 seconds.
+depth: 13, max_depth: 3
+My AI's turn took  0.04491829872131348 seconds.
+depth: 15, max_depth: 3
+My AI's turn took  0.01893019676208496 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.015472173690795898 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.020097732543945312 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.014140129089355469 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.016631364822387695 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.009653806686401367 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.0003108978271484375 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.006531953811645508 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.0045070648193359375 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0005908012390136719 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.0005652904510498047 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.0001842975616455078 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.04067540168762207 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.05367112159729004 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.1122593879699707 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.10698676109313965 seconds.
+depth: 12, max_depth: 3
+My AI's turn took  0.01633000373840332 seconds.
+depth: 14, max_depth: 3
+My AI's turn took  0.03348851203918457 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.04646563529968262 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.03535771369934082 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.0359499454498291 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.017906904220581055 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.01582813262939453 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.010220050811767578 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.008631706237792969 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.004151821136474609 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0021610260009765625 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.0005853176116943359 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.27924489974975586 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.3104674816131592 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.8373286724090576 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.46800732612609863 seconds.
+depth: 13, max_depth: 4
+My AI's turn took  0.6079432964324951 seconds.
+depth: 15, max_depth: 4
+My AI's turn took  1.0003306865692139 seconds.
+depth: 17, max_depth: 4
+My AI's turn took  2.779977798461914 seconds.
+depth: 19, max_depth: 4
+My AI's turn took  1.4532136917114258 seconds.
+depth: 21, max_depth: 4
+My AI's turn took  0.8672928810119629 seconds.
+depth: 23, max_depth: 4
+My AI's turn took  2.7923645973205566 seconds.
+depth: 25, max_depth: 4
+My AI's turn took  3.288700580596924 seconds.
+depth: 27, max_depth: 4
+My AI's turn took  1.6679365634918213 seconds.
+depth: 29, max_depth: 4
+My AI's turn took  5.305944204330444 seconds.
+depth: 31, max_depth: 4
+My AI's turn took  3.183636426925659 seconds.
+depth: 33, max_depth: 4
+My AI's turn took  3.3906002044677734 seconds.
+depth: 35, max_depth: 4
+My AI's turn took  2.607874870300293 seconds.
+depth: 37, max_depth: 4
+My AI's turn took  1.2939987182617188 seconds.
+depth: 39, max_depth: 4
+My AI's turn took  1.2244582176208496 seconds.
+depth: 41, max_depth: 4
+My AI's turn took  1.2216863632202148 seconds.
+depth: 43, max_depth: 4
+My AI's turn took  4.985779762268066 seconds.
+depth: 45, max_depth: 4
+My AI's turn took  3.757878541946411 seconds.
+depth: 47, max_depth: 4
+My AI's turn took  4.6686906814575195 seconds.
+depth: 49, max_depth: 4
+My AI's turn took  3.226597547531128 seconds.
+depth: 51, max_depth: 4
+My AI's turn took  3.207606554031372 seconds.
+depth: 53, max_depth: 4
+My AI's turn took  3.5116803646087646 seconds.
+depth: 55, max_depth: 4
+My AI's turn took  1.0098257064819336 seconds.
+depth: 57, max_depth: 4
+My AI's turn took  2.188659429550171 seconds.
+depth: 59, max_depth: 4
+My AI's turn took  1.7792465686798096 seconds.
+depth: 61, max_depth: 4
+My AI's turn took  1.2880361080169678 seconds.
+depth: 63, max_depth: 4
+My AI's turn took  0.8134167194366455 seconds.
+depth: 65, max_depth: 4
+My AI's turn took  5.574866056442261 seconds.
+depth: 67, max_depth: 4
+My AI's turn took  3.298362970352173 seconds.
+depth: 69, max_depth: 4
+My AI's turn took  1.9432454109191895 seconds.
+depth: 71, max_depth: 4
+My AI's turn took  2.7874460220336914 seconds.
+depth: 73, max_depth: 3
+My AI's turn took  1.5131797790527344 seconds.
+depth: 75, max_depth: 3
+My AI's turn took  1.135716438293457 seconds.
+depth: 77, max_depth: 3
+My AI's turn took  0.8080494403839111 seconds.
+depth: 79, max_depth: 3
+My AI's turn took  0.8749611377716064 seconds.
+depth: 81, max_depth: 3
+My AI's turn took  0.6840944290161133 seconds.
+depth: 83, max_depth: 3
+My AI's turn took  0.6334829330444336 seconds.
+depth: 85, max_depth: 3
+My AI's turn took  0.560401201248169 seconds.
+depth: 87, max_depth: 3
+My AI's turn took  0.6784183979034424 seconds.
+depth: 89, max_depth: 3
+My AI's turn took  0.4802412986755371 seconds.
+depth: 91, max_depth: 3
+My AI's turn took  0.6904377937316895 seconds.
+depth: 93, max_depth: 3
+My AI's turn took  1.0213375091552734 seconds.
+depth: 95, max_depth: 3
+My AI's turn took  0.9191989898681641 seconds.
+depth: 97, max_depth: 3
+My AI's turn took  0.7968318462371826 seconds.
+depth: 99, max_depth: 3
+My AI's turn took  0.7535967826843262 seconds.
+depth: 101, max_depth: 3
+My AI's turn took  0.9594016075134277 seconds.
+depth: 103, max_depth: 3
+My AI's turn took  1.5371675491333008 seconds.
+depth: 105, max_depth: 3
+My AI's turn took  0.5721457004547119 seconds.
+depth: 107, max_depth: 3
+My AI's turn took  0.4647641181945801 seconds.
+depth: 109, max_depth: 3
+My AI's turn took  0.40004777908325195 seconds.
+depth: 111, max_depth: 3
+My AI's turn took  0.27962684631347656 seconds.
+depth: 113, max_depth: 3
+My AI's turn took  0.24886798858642578 seconds.
+depth: 115, max_depth: 3
+My AI's turn took  0.1736311912536621 seconds.
+depth: 117, max_depth: 3
+My AI's turn took  0.12612342834472656 seconds.
+depth: 119, max_depth: 3
+My AI's turn took  0.13109350204467773 seconds.
+depth: 121, max_depth: 3
+My AI's turn took  0.14185333251953125 seconds.
+depth: 122, max_depth: 3
+My AI's turn took  0.11410832405090332 seconds.
+depth: 124, max_depth: 3
+My AI's turn took  0.10207962989807129 seconds.
+depth: 126, max_depth: 3
+My AI's turn took  0.11147427558898926 seconds.
+depth: 128, max_depth: 3
+My AI's turn took  0.04507088661193848 seconds.
+depth: 129, max_depth: 3
+My AI's turn took  0.04616737365722656 seconds.
+depth: 130, max_depth: 3
+My AI's turn took  0.05091285705566406 seconds.
+depth: 132, max_depth: 3
+My AI's turn took  0.02769184112548828 seconds.
+depth: 134, max_depth: 3
+My AI's turn took  0.0005981922149658203 seconds.
+depth: 135, max_depth: 3
+My AI's turn took  0.0005660057067871094 seconds.
+depth: 136, max_depth: 3
+My AI's turn took  0.019559383392333984 seconds.
+depth: 138, max_depth: 3
+My AI's turn took  0.007325172424316406 seconds.
+depth: 140, max_depth: 3
+My AI's turn took  0.0003848075866699219 seconds.
+depth: 141, max_depth: 3
+My AI's turn took  0.0018222332000732422 seconds.
+depth: 143, max_depth: 3
+My AI's turn took  0.00037384033203125 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.10940694808959961 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.16266608238220215 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.8166608810424805 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.7289047241210938 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.5403139591217041 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  0.4582042694091797 seconds.
+depth: 16, max_depth: 4
+My AI's turn took  0.953524112701416 seconds.
+depth: 18, max_depth: 4
+My AI's turn took  0.9919545650482178 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.14792180061340332 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.2407398223876953 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.22644400596618652 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.33939146995544434 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.14867043495178223 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.24642062187194824 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.31565380096435547 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.19967222213745117 seconds.
+depth: 36, max_depth: 3
+My AI's turn took  0.20955491065979004 seconds.
+depth: 38, max_depth: 3
+My AI's turn took  0.28757214546203613 seconds.
+depth: 40, max_depth: 3
+My AI's turn took  0.25554537773132324 seconds.
+depth: 42, max_depth: 3
+My AI's turn took  0.1464393138885498 seconds.
+depth: 44, max_depth: 3
+My AI's turn took  0.07428097724914551 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.10755634307861328 seconds.
+depth: 48, max_depth: 3
+My AI's turn took  0.11542677879333496 seconds.
+depth: 50, max_depth: 3
+My AI's turn took  0.15912604331970215 seconds.
+depth: 52, max_depth: 3
+My AI's turn took  0.09622812271118164 seconds.
+depth: 54, max_depth: 3
+My AI's turn took  0.10558557510375977 seconds.
+depth: 56, max_depth: 3
+My AI's turn took  0.2623860836029053 seconds.
+depth: 58, max_depth: 3
+My AI's turn took  0.29771852493286133 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.02229785919189453 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.028201818466186523 seconds.
+depth: 64, max_depth: 2
+My AI's turn took  0.023180007934570312 seconds.
+depth: 66, max_depth: 2
+My AI's turn took  0.01891803741455078 seconds.
+depth: 68, max_depth: 2
+My AI's turn took  0.02746415138244629 seconds.
+depth: 70, max_depth: 2
+My AI's turn took  0.019267797470092773 seconds.
+depth: 72, max_depth: 2
+My AI's turn took  0.018318891525268555 seconds.
+depth: 74, max_depth: 2
+My AI's turn took  0.014864683151245117 seconds.
+depth: 76, max_depth: 2
+My AI's turn took  0.013222932815551758 seconds.
+depth: 78, max_depth: 2
+My AI's turn took  0.010037422180175781 seconds.
+depth: 80, max_depth: 2
+My AI's turn took  0.013092279434204102 seconds.
+depth: 82, max_depth: 2
+My AI's turn took  0.010499715805053711 seconds.
+depth: 84, max_depth: 2
+My AI's turn took  0.010229110717773438 seconds.
+depth: 86, max_depth: 2
+My AI's turn took  0.014284133911132812 seconds.
+depth: 88, max_depth: 2
+My AI's turn took  0.008852005004882812 seconds.
+depth: 90, max_depth: 2
+My AI's turn took  0.011066436767578125 seconds.
+depth: 92, max_depth: 2
+My AI's turn took  0.005726337432861328 seconds.
+depth: 94, max_depth: 2
+My AI's turn took  0.0033407211303710938 seconds.
+depth: 96, max_depth: 2
+My AI's turn took  0.0026085376739501953 seconds.
+depth: 98, max_depth: 2
+My AI's turn took  0.0005519390106201172 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.05404806137084961 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.04790520668029785 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.07609915733337402 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.12133288383483887 seconds.
+depth: 13, max_depth: 3
+My AI's turn took  0.045026540756225586 seconds.
+depth: 15, max_depth: 3
+My AI's turn took  0.01865386962890625 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.015588760375976562 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.020125627517700195 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.014140605926513672 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.01672077178955078 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.009675264358520508 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.0003104209899902344 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.0065135955810546875 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.004496335983276367 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0005929470062255859 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.0005211830139160156 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.00015592575073242188 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.04054522514343262 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.053843021392822266 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.11304759979248047 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.10378527641296387 seconds.
+depth: 12, max_depth: 3
+My AI's turn took  0.016080617904663086 seconds.
+depth: 14, max_depth: 3
+My AI's turn took  0.028304100036621094 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.028420448303222656 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.030706167221069336 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.02872467041015625 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.01799321174621582 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.015895843505859375 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.010180950164794922 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.008771896362304688 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.0041539669036865234 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0021927356719970703 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.0005910396575927734 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.05427050590515137 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.04803276062011719 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.07614564895629883 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.12059307098388672 seconds.
+depth: 13, max_depth: 3
+My AI's turn took  0.04487943649291992 seconds.
+depth: 15, max_depth: 3
+My AI's turn took  0.018526077270507812 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.015504121780395508 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.02008795738220215 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.014049291610717773 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.016511201858520508 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.009633064270019531 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.0003147125244140625 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.00650334358215332 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.004425764083862305 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.0006000995635986328 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.00052642822265625 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.0001552104949951172 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.07048487663269043 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.18674492835998535 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.041957855224609375 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.04995465278625488 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.19027161598205566 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  0.22203326225280762 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.08827853202819824 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.13663721084594727 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.11444902420043945 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.08435535430908203 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.15458035469055176 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.1086876392364502 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.1813952922821045 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.14161992073059082 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.03975963592529297 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.12929773330688477 seconds.
+depth: 36, max_depth: 3
+My AI's turn took  0.16017460823059082 seconds.
+depth: 38, max_depth: 3
+My AI's turn took  0.11359262466430664 seconds.
+depth: 40, max_depth: 3
+My AI's turn took  0.07174324989318848 seconds.
+depth: 42, max_depth: 3
+My AI's turn took  0.03429865837097168 seconds.
+depth: 44, max_depth: 3
+My AI's turn took  0.01303243637084961 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.020262718200683594 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.007283926010131836 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.0034797191619873047 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.002165079116821289 seconds.
+depth: 54, max_depth: 2
+My AI's turn took  0.0014066696166992188 seconds.
+depth: 56, max_depth: 2
+My AI's turn took  0.002493619918823242 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.0006160736083984375 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.0010154247283935547 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.0009031295776367188 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.13526368141174316 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.10524916648864746 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.23755455017089844 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.2617034912109375 seconds.
+depth: 13, max_depth: 4
+My AI's turn took  0.3396897315979004 seconds.
+depth: 15, max_depth: 4
+My AI's turn took  0.5251414775848389 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.1222224235534668 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.04146838188171387 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.05811786651611328 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.08311128616333008 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.19857335090637207 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.17149019241333008 seconds.
+depth: 29, max_depth: 3
+My AI's turn took  0.12815260887145996 seconds.
+depth: 31, max_depth: 3
+My AI's turn took  0.09546208381652832 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.11130404472351074 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.0621342658996582 seconds.
+depth: 37, max_depth: 3
+My AI's turn took  0.0986332893371582 seconds.
+depth: 39, max_depth: 3
+My AI's turn took  0.026159048080444336 seconds.
+depth: 41, max_depth: 3
+My AI's turn took  0.06253981590270996 seconds.
+depth: 43, max_depth: 3
+My AI's turn took  0.016963958740234375 seconds.
+depth: 45, max_depth: 3
+My AI's turn took  0.005995988845825195 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.04824399948120117 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.009176015853881836 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.007905721664428711 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.008776426315307617 seconds.
+depth: 53, max_depth: 2
+My AI's turn took  0.006403684616088867 seconds.
+depth: 55, max_depth: 2
+My AI's turn took  0.005888223648071289 seconds.
+depth: 57, max_depth: 2
+My AI's turn took  0.004065275192260742 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.0029239654541015625 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.001176595687866211 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.00043082237243652344 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.07080245018005371 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.18211603164672852 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  0.04201030731201172 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.0497896671295166 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.19005298614501953 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  0.23018336296081543 seconds.
+depth: 16, max_depth: 3
+My AI's turn took  0.08797001838684082 seconds.
+depth: 18, max_depth: 3
+My AI's turn took  0.13320660591125488 seconds.
+depth: 20, max_depth: 3
+My AI's turn took  0.11442303657531738 seconds.
+depth: 22, max_depth: 3
+My AI's turn took  0.0891733169555664 seconds.
+depth: 24, max_depth: 3
+My AI's turn took  0.1545407772064209 seconds.
+depth: 26, max_depth: 3
+My AI's turn took  0.10929369926452637 seconds.
+depth: 28, max_depth: 3
+My AI's turn took  0.18229389190673828 seconds.
+depth: 30, max_depth: 3
+My AI's turn took  0.14203166961669922 seconds.
+depth: 32, max_depth: 3
+My AI's turn took  0.03997659683227539 seconds.
+depth: 34, max_depth: 3
+My AI's turn took  0.13031005859375 seconds.
+depth: 36, max_depth: 3
+My AI's turn took  0.16702675819396973 seconds.
+depth: 38, max_depth: 3
+My AI's turn took  0.11488127708435059 seconds.
+depth: 40, max_depth: 3
+My AI's turn took  0.07241153717041016 seconds.
+depth: 42, max_depth: 3
+My AI's turn took  0.034415483474731445 seconds.
+depth: 44, max_depth: 3
+My AI's turn took  0.013080835342407227 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.020370960235595703 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.0072689056396484375 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.003434419631958008 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.002155303955078125 seconds.
+depth: 54, max_depth: 2
+My AI's turn took  0.0014042854309082031 seconds.
+depth: 56, max_depth: 2
+My AI's turn took  0.002457141876220703 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.0005943775177001953 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.0010249614715576172 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.0009157657623291016 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.13088726997375488 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.10985898971557617 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.23238539695739746 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.26093435287475586 seconds.
+depth: 13, max_depth: 4
+My AI's turn took  0.3421971797943115 seconds.
+depth: 15, max_depth: 4
+My AI's turn took  0.5259571075439453 seconds.
+depth: 17, max_depth: 3
+My AI's turn took  0.12181758880615234 seconds.
+depth: 19, max_depth: 3
+My AI's turn took  0.037194252014160156 seconds.
+depth: 21, max_depth: 3
+My AI's turn took  0.05808758735656738 seconds.
+depth: 23, max_depth: 3
+My AI's turn took  0.08286929130554199 seconds.
+depth: 25, max_depth: 3
+My AI's turn took  0.1973259449005127 seconds.
+depth: 27, max_depth: 3
+My AI's turn took  0.17513465881347656 seconds.
+depth: 29, max_depth: 3
+My AI's turn took  0.12811064720153809 seconds.
+depth: 31, max_depth: 3
+My AI's turn took  0.09090924263000488 seconds.
+depth: 33, max_depth: 3
+My AI's turn took  0.10982036590576172 seconds.
+depth: 35, max_depth: 3
+My AI's turn took  0.06210923194885254 seconds.
+depth: 37, max_depth: 3
+My AI's turn took  0.09491515159606934 seconds.
+depth: 39, max_depth: 3
+My AI's turn took  0.0261993408203125 seconds.
+depth: 41, max_depth: 3
+My AI's turn took  0.06252288818359375 seconds.
+depth: 43, max_depth: 3
+My AI's turn took  0.017039060592651367 seconds.
+depth: 45, max_depth: 3
+My AI's turn took  0.006048917770385742 seconds.
+depth: 46, max_depth: 3
+My AI's turn took  0.04839587211608887 seconds.
+depth: 48, max_depth: 2
+My AI's turn took  0.009255647659301758 seconds.
+depth: 50, max_depth: 2
+My AI's turn took  0.007976293563842773 seconds.
+depth: 52, max_depth: 2
+My AI's turn took  0.009036064147949219 seconds.
+depth: 53, max_depth: 2
+My AI's turn took  0.006438016891479492 seconds.
+depth: 55, max_depth: 2
+My AI's turn took  0.005889892578125 seconds.
+depth: 57, max_depth: 2
+My AI's turn took  0.004175424575805664 seconds.
+depth: 58, max_depth: 2
+My AI's turn took  0.006943702697753906 seconds.
+depth: 60, max_depth: 2
+My AI's turn took  0.0011730194091796875 seconds.
+depth: 62, max_depth: 2
+My AI's turn took  0.00043463706970214844 seconds.
+depth: 4, max_depth: 4
+My AI's turn took  0.2033400535583496 seconds.
+depth: 6, max_depth: 4
+My AI's turn took  0.24660491943359375 seconds.
+depth: 8, max_depth: 4
+My AI's turn took  1.1799352169036865 seconds.
+depth: 10, max_depth: 4
+My AI's turn took  0.9146022796630859 seconds.
+depth: 12, max_depth: 4
+My AI's turn took  0.8036952018737793 seconds.
+depth: 14, max_depth: 4
+My AI's turn took  1.0062475204467773 seconds.
+depth: 16, max_depth: 4
+My AI's turn took  0.7873890399932861 seconds.
+depth: 18, max_depth: 4
+My AI's turn took  1.8050031661987305 seconds.
+depth: 20, max_depth: 4
+My AI's turn took  2.273792028427124 seconds.
+depth: 22, max_depth: 4
+My AI's turn took  4.26170015335083 seconds.
+depth: 24, max_depth: 4
+My AI's turn took  4.166165351867676 seconds.
+depth: 26, max_depth: 4
+My AI's turn took  5.144297122955322 seconds.
+depth: 28, max_depth: 4
+My AI's turn took  1.4292051792144775 seconds.
+depth: 30, max_depth: 4
+My AI's turn took  4.775135040283203 seconds.
+depth: 32, max_depth: 4
+My AI's turn took  3.2898199558258057 seconds.
+depth: 34, max_depth: 4
+My AI's turn took  3.7141518592834473 seconds.
+depth: 36, max_depth: 4
+My AI's turn took  1.7036025524139404 seconds.
+depth: 38, max_depth: 4
+My AI's turn took  1.581679344177246 seconds.
+depth: 40, max_depth: 4
+My AI's turn took  2.5450546741485596 seconds.
+depth: 42, max_depth: 4
+My AI's turn took  1.7096800804138184 seconds.
+depth: 44, max_depth: 4
+My AI's turn took  1.7635776996612549 seconds.
+depth: 46, max_depth: 4
+My AI's turn took  1.3291010856628418 seconds.
+depth: 48, max_depth: 4
+My AI's turn took  1.510108232498169 seconds.
+depth: 50, max_depth: 4
+My AI's turn took  2.8391685485839844 seconds.
+depth: 52, max_depth: 4
+My AI's turn took  1.66864013671875 seconds.
+depth: 54, max_depth: 4
+My AI's turn took  1.035705327987671 seconds.
+depth: 56, max_depth: 4
+My AI's turn took  1.9198198318481445 seconds.
+depth: 58, max_depth: 4
+My AI's turn took  1.4423747062683105 seconds.
+depth: 60, max_depth: 4
+My AI's turn took  1.137603759765625 seconds.
+depth: 62, max_depth: 4
+My AI's turn took  0.9642772674560547 seconds.
+depth: 64, max_depth: 4
+My AI's turn took  1.1717634201049805 seconds.
+depth: 66, max_depth: 4
+My AI's turn took  0.6239376068115234 seconds.
+depth: 68, max_depth: 4
+My AI's turn took  0.8539319038391113 seconds.
+depth: 70, max_depth: 4
+My AI's turn took  0.8787000179290771 seconds.
+depth: 72, max_depth: 3
+My AI's turn took  0.3441050052642822 seconds.
+depth: 74, max_depth: 3
+My AI's turn took  0.3992178440093994 seconds.
+depth: 76, max_depth: 3
+My AI's turn took  0.3499786853790283 seconds.
+depth: 78, max_depth: 3
+My AI's turn took  0.4205939769744873 seconds.
+depth: 80, max_depth: 3
+My AI's turn took  0.2448580265045166 seconds.
+depth: 82, max_depth: 3
+My AI's turn took  0.2609083652496338 seconds.
+depth: 84, max_depth: 3
+My AI's turn took  0.28811025619506836 seconds.
+depth: 86, max_depth: 3
+My AI's turn took  0.23442769050598145 seconds.
+depth: 88, max_depth: 3
+My AI's turn took  0.2821805477142334 seconds.
+depth: 90, max_depth: 3
+My AI's turn took  0.4083073139190674 seconds.
+depth: 92, max_depth: 3
+My AI's turn took  0.33129191398620605 seconds.
+depth: 94, max_depth: 3
+My AI's turn took  0.2927126884460449 seconds.
+depth: 96, max_depth: 3
+My AI's turn took  0.19571876525878906 seconds.
+depth: 98, max_depth: 3
+My AI's turn took  0.2439417839050293 seconds.
+depth: 100, max_depth: 3
+My AI's turn took  0.29806971549987793 seconds.
+depth: 102, max_depth: 3
+My AI's turn took  0.20251846313476562 seconds.
+depth: 104, max_depth: 3
+My AI's turn took  0.23889994621276855 seconds.
+depth: 106, max_depth: 3
+My AI's turn took  0.16546940803527832 seconds.
+depth: 108, max_depth: 3
+My AI's turn took  0.294644832611084 seconds.
+depth: 110, max_depth: 3
+My AI's turn took  0.36398911476135254 seconds.
+depth: 112, max_depth: 3
+My AI's turn took  0.1506485939025879 seconds.
+depth: 114, max_depth: 3
+My AI's turn took  0.0797128677368164 seconds.
+depth: 116, max_depth: 3
+My AI's turn took  0.06684637069702148 seconds.
+depth: 118, max_depth: 3
+My AI's turn took  0.1368083953857422 seconds.
+depth: 120, max_depth: 3
+My AI's turn took  0.14474177360534668 seconds.
+depth: 122, max_depth: 3
+My AI's turn took  0.10114407539367676 seconds.
+depth: 124, max_depth: 3
+My AI's turn took  0.1747903823852539 seconds.
+depth: 126, max_depth: 3
+My AI's turn took  0.0883486270904541 seconds.
+depth: 128, max_depth: 3
+My AI's turn took  0.07441258430480957 seconds.
+depth: 130, max_depth: 3
+My AI's turn took  0.03474831581115723 seconds.
+depth: 132, max_depth: 3
+My AI's turn took  0.05814409255981445 seconds.
+depth: 134, max_depth: 3
+My AI's turn took  0.05455899238586426 seconds.
+depth: 136, max_depth: 3
+My AI's turn took  0.029611587524414062 seconds.
+depth: 138, max_depth: 3
+My AI's turn took  0.025348663330078125 seconds.
+depth: 140, max_depth: 3
+My AI's turn took  0.00735020637512207 seconds.
+depth: 142, max_depth: 3
+My AI's turn took  0.0016658306121826172 seconds.
+depth: 5, max_depth: 4
+My AI's turn took  0.2846372127532959 seconds.
+depth: 7, max_depth: 4
+My AI's turn took  0.30919814109802246 seconds.
+depth: 9, max_depth: 4
+My AI's turn took  0.8452823162078857 seconds.
+depth: 11, max_depth: 4
+My AI's turn took  0.47423505783081055 seconds.
+depth: 13, max_depth: 4
+My AI's turn took  0.7449336051940918 seconds.
+depth: 15, max_depth: 4
+My AI's turn took  1.0011916160583496 seconds.
+depth: 17, max_depth: 4
+My AI's turn took  2.802518606185913 seconds.
+depth: 19, max_depth: 4
+My AI's turn took  1.4805364608764648 seconds.
+depth: 21, max_depth: 4
+My AI's turn took  0.8599097728729248 seconds.
+depth: 23, max_depth: 4
+My AI's turn took  2.7904748916625977 seconds.
+depth: 25, max_depth: 4
+My AI's turn took  3.2664499282836914 seconds.
+depth: 27, max_depth: 4

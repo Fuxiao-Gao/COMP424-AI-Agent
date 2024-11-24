@@ -27,6 +27,7 @@ class World:
         # display_save=True,
         display_save=False,
         display_save_path="results/",
+        # autoplay=False,
         autoplay=False,
     ):
         """
