@@ -68,8 +68,6 @@ class StudentAgent(Agent):
     depth = np.sum(chess_board != 0)
     if max_depth == 0 or check_endgame(chess_board, player, 3 - player)[0]:
       score = self.evaluate_board(chess_board, depth)
-      print(f"score: {score}, player: {player}")
-      self.table[key] = (None, score)
       return None, score
     
     moves = get_valid_moves(chess_board, player)
@@ -91,7 +89,6 @@ class StudentAgent(Agent):
         if score >= best_score:
           best_score = score
           best_move = move
-        print(f"Not the best move: current score for player {player}: {score} compare to best score: {best_score}, best move so far: {best_move}")
         alpha = max(alpha, best_score)
         if beta <= alpha:
           break
