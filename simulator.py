@@ -117,7 +117,7 @@ class Simulator:
                     print(
                         f"Player 2, agent {self.args.player_1}, exceeded maximum turn time. Simulation stopped."
                     )
-                    break
+                    # break
                 
                 if swap_players:
                     p0_score, p1_score, p0_time, p1_time = (

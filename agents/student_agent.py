@@ -48,7 +48,7 @@ class StudentAgent(Agent):
     time_taken = time.time() - start_time
     # print("My AI's turn took ", time_taken, "seconds.")
     if best_move is None:
-      sys.exit("No valid moves available. Exiting the program.")
+      print("No valid moves for", player)
     return best_move
 
   def minimax_alpha_beta(self, max_depth, chess_board, alpha, beta, player):
@@ -65,14 +65,16 @@ class StudentAgent(Agent):
     if key in self.table:
       return self.table[key]
     
+    depth = np.sum(chess_board != 0)
     if max_depth == 0 or check_endgame(chess_board, player, 3 - player)[0]:
-      depth = np.sum(chess_board != 0)
       score = self.evaluate_board(chess_board, depth)
+      print(f"score: {score}, player: {player}")
       self.table[key] = (None, score)
       return None, score
     
     moves = get_valid_moves(chess_board, player)
     if not moves:
+      print("no move spotted")
       if player == MAX_PLAYER:
         _, score = self.minimax_alpha_beta(max_depth - 1, chess_board, alpha, beta, MIN_PLAYER)
       else:
@@ -86,10 +88,10 @@ class StudentAgent(Agent):
         new_board = deepcopy(chess_board)
         execute_move(new_board, move, player)
         _, score = self.minimax_alpha_beta(max_depth - 1, new_board, alpha, beta, MIN_PLAYER)
-        if score > best_score:
-          print(f"score: {score}, player: {player}")
+        if score >= best_score:
           best_score = score
           best_move = move
+        print(f"Not the best move: current score for player {player}: {score} compare to best score: {best_score}, best move so far: {best_move}")
         alpha = max(alpha, best_score)
         if beta <= alpha:
           break
@@ -99,14 +101,14 @@ class StudentAgent(Agent):
         new_board = deepcopy(chess_board)
         execute_move(new_board, move, player)
         _, score = self.minimax_alpha_beta(max_depth - 1, new_board, alpha, beta, MAX_PLAYER)
-        if score < best_score:
-          print(f"score: {score}, player: {player}")
+        if score <= best_score:
+          # print(f"score: {score}, player: {player}, best_score: {best_score}")
           best_score = score
           best_move = move
         beta = min(beta, best_score)
         if beta <= alpha:
           break
-        
+  
     self.table[key] = (best_move, best_score)
     return best_move, best_score
     
@@ -123,17 +125,17 @@ class StudentAgent(Agent):
     w_coin, w_mobility, w_corner, w_stability = weights
     
     coin_parity_score = self.coin_parity(chess_board)
-    print(f"coin_parity_score: {coin_parity_score}")
+    # print(f"coin_parity_score: {coin_parity_score}")
     mobility_score = self.mobility(chess_board)
-    print(f"mobility_score: {mobility_score}")
-    corner_potential_score = self.corner_potential(chess_board)
-    print(f"corner_potential_score: {corner_potential_score}")
-    stability_score = self.stability(chess_board)
-    print(f"stability_score: {stability_score}")
+    # print(f"mobility_score: {mobility_score}")
+    # corner_potential_score = self.corner_potential(chess_board)
+    # print(f"corner_potential_score: {corner_potential_score}")
+    # stability_score = self.stability(chess_board)
+    # print(f"stability_score: {stability_score}")
     
     # Calculate the heuristic score
-    heuristic_score = w_coin * coin_parity_score + w_mobility * mobility_score + w_corner * corner_potential_score + w_stability * stability_score
-    
+    # heuristic_score = w_coin * coin_parity_score + w_mobility * mobility_score + w_corner * corner_potential_score + w_stability * stability_score
+    heuristic_score = coin_parity_score * 0.5 + mobility_score * 0.5
     return heuristic_score
 
   def coin_parity(self, chess_board):
