@@ -21,6 +21,7 @@ class StudentAgent(Agent):
   def __init__(self):
     super(StudentAgent, self).__init__()
     self.name = "StudentAgent"
+    self.table = {}
 
   def step(self, chess_board, player, opponent):
     """
@@ -46,7 +47,8 @@ class StudentAgent(Agent):
 
     time_taken = time.time() - start_time
     # print("My AI's turn took ", time_taken, "seconds.")
-
+    if best_move is None:
+      sys.exit("No valid moves available. Exiting the program.")
     return best_move
 
   def minimax_alpha_beta(self, max_depth, chess_board, alpha, beta, player):
@@ -59,12 +61,23 @@ class StudentAgent(Agent):
     :param player: The current player (MAX_PLAYER or MIN_PLAYER).
     :return tuple: The best move and the best score.
     '''
-    if max_depth == 0 or check_endgame(chess_board, player, MIN_PLAYER)[0]:
-      # calculate the depth of the search tree
+    key = (chess_board.tostring(), player)
+    if key in self.table:
+      return self.table[key]
+    
+    if max_depth == 0 or check_endgame(chess_board, player, 3 - player)[0]:
       depth = np.sum(chess_board != 0)
-      return None, self.evaluate_board(chess_board, depth)
+      score = self.evaluate_board(chess_board, depth)
+      self.table[key] = (None, score)
+      return None, score
     
     moves = get_valid_moves(chess_board, player)
+    if not moves:
+      if player == MAX_PLAYER:
+        _, score = self.minimax_alpha_beta(max_depth - 1, chess_board, alpha, beta, MIN_PLAYER)
+      else:
+        _, score = self.minimax_alpha_beta(max_depth - 1, chess_board, alpha, beta, MAX_PLAYER)
+    
     best_move = None
     
     if player == MAX_PLAYER:
@@ -74,6 +87,7 @@ class StudentAgent(Agent):
         execute_move(new_board, move, player)
         _, score = self.minimax_alpha_beta(max_depth - 1, new_board, alpha, beta, MIN_PLAYER)
         if score > best_score:
+          print(f"score: {score}, player: {player}")
           best_score = score
           best_move = move
         alpha = max(alpha, best_score)
@@ -86,12 +100,14 @@ class StudentAgent(Agent):
         execute_move(new_board, move, player)
         _, score = self.minimax_alpha_beta(max_depth - 1, new_board, alpha, beta, MAX_PLAYER)
         if score < best_score:
+          print(f"score: {score}, player: {player}")
           best_score = score
           best_move = move
         beta = min(beta, best_score)
         if beta <= alpha:
           break
         
+    self.table[key] = (best_move, best_score)
     return best_move, best_score
     
   def evaluate_board(self, chess_board, depth):
@@ -107,9 +123,13 @@ class StudentAgent(Agent):
     w_coin, w_mobility, w_corner, w_stability = weights
     
     coin_parity_score = self.coin_parity(chess_board)
+    print(f"coin_parity_score: {coin_parity_score}")
     mobility_score = self.mobility(chess_board)
+    print(f"mobility_score: {mobility_score}")
     corner_potential_score = self.corner_potential(chess_board)
+    print(f"corner_potential_score: {corner_potential_score}")
     stability_score = self.stability(chess_board)
+    print(f"stability_score: {stability_score}")
     
     # Calculate the heuristic score
     heuristic_score = w_coin * coin_parity_score + w_mobility * mobility_score + w_corner * corner_potential_score + w_stability * stability_score
@@ -126,8 +146,8 @@ class StudentAgent(Agent):
     opponent_discs = np.sum(chess_board == MIN_PLAYER)
     
     # calculate the coin parity score
-    total_possible_discs = chess_board.size
-    coin_parity_score = (player_discs - opponent_discs) / max(1, player_discs + opponent_discs) * (player_discs + opponent_discs) / total_possible_discs
+    total_possible_discs = player_discs + opponent_discs
+    coin_parity_score = 100 * (player_discs - opponent_discs) / total_possible_discs
     return coin_parity_score
   
   def mobility(self, chess_board):
@@ -140,14 +160,14 @@ class StudentAgent(Agent):
     opponent_legal_moves = get_valid_moves(chess_board, MIN_PLAYER)
     
     # calculate the mobility score
-    mobility_score = (len(player_legal_moves) - len(opponent_legal_moves)) / max(1, len(player_legal_moves) + len(opponent_legal_moves))
+    mobility_score = 100 * (len(player_legal_moves) - len(opponent_legal_moves)) / max(1, len(player_legal_moves) + len(opponent_legal_moves))
     return mobility_score
   
   def corner_potential(self, chess_board):
     '''
     Calculate the corner potential of the player.
     Goal: C-Squares -- penalize occupying these squares early unless adjacent corners are already stable
-          X-Squares -- reward occupying these squares early unless adjacent corners are already stable
+          X-Squares -- penalize occupying these squares early unless adjacent corners are already stable
     '''
     # find the C-squares, X-squares and corners on the board
     c_squares = self.find_c_squares(chess_board)
@@ -168,11 +188,9 @@ class StudentAgent(Agent):
       elif chess_board[x_square] == MIN_PLAYER:
         raw_corner_potential_score += 20
     
-    # normalize the raw corner pontential score
-    min_corner_potential_score = len(c_squares) * -12 + len(x_squares) * -20
-    max_corner_potential_score = len(c_squares) * 12 + len(x_squares) * 20
-    
-    corner_potential_score = 2 * (raw_corner_potential_score - min_corner_potential_score) / max(1, max_corner_potential_score - min_corner_potential_score) - 1
+    # normalize the raw corner potential score
+    total_squares = len(c_squares) + len(x_squares)
+    corner_potential_score = 100 * (raw_corner_potential_score / (total_squares * 20))
     return corner_potential_score
   
   def stability(self, chess_board):
@@ -181,7 +199,8 @@ class StudentAgent(Agent):
     Goal: reward discs that cannot be flipped by the opponent
     '''
     stability_score = 0
-    stable_discs = set()
+    stable_discs_max = set()
+    stable_discs_min = set()
     
     # Directions for checking stability (horizontal, vertical, and diagonal)
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (1, 1), (-1, 1), (1, -1)]
@@ -190,14 +209,18 @@ class StudentAgent(Agent):
     corners = self.find_corners(chess_board)
     for corner in corners:
         if chess_board[corner] == MAX_PLAYER:
-            stability_score += 1  # Corner disc is always stable
-            stable_discs.add(corner)
+            stable_discs_max.add(corner)
             # Recursively check connected discs
-            self.check_stability(chess_board, corner, stable_discs, directions)
+            self.check_stability(chess_board, corner, stable_discs_max, directions)
+        else:
+            stable_discs_min.add(corner)
+            # Recursively check connected discs
+            self.check_stability(chess_board, corner, stable_discs_min, directions)
+            
     
     # Normalize the stability score
-    total_discs = chess_board.size
-    stability_score = 2 * len(stable_discs) / total_discs - 1
+    total_discs = len(stable_discs_max) + len(stable_discs_min)
+    stability_score = 100 * (len(stable_discs_max) - len(stable_discs_min)) / total_discs
     
     return stability_score
 
@@ -289,15 +312,14 @@ class StudentAgent(Agent):
     # Define the weights based on depth and board size
     if depth < early_game_depth:
       w_coin = 0.4
-      w_mobility = 0.35 - 0.1 * (depth / early_game_depth) 
-      w_corner = 0.15
+      w_mobility = 0.4 - 0.1 * (depth / early_game_depth) 
+      w_corner = 0.1
       w_stability = 0.1  
     elif depth < mid_game_depth: 
-      transition = (depth - early_game_depth) / (mid_game_depth - early_game_depth)  # Transition factor [0, 1]
-      w_coin = 0.3 - 0.1 * transition
-      w_mobility = 0.3 - 0.1 * transition
-      w_corner = 0.2 + 0.1 * transition
-      w_stability = 0.2 + 0.1 * transition 
+      w_coin = 0.3 
+      w_mobility = 0.3
+      w_corner = 0.2
+      w_stability = 0.2
     else:  
       w_coin = 0.1
       w_mobility = 0.2
