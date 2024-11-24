@@ -21,9 +21,11 @@ class World:
         player_1="random_agent",
         player_2="random_agent",
         board_size=None,
-        display_ui=True,
+        # display_ui=True,
+        display_ui=False,
         display_delay=0.4,
-        display_save=True,
+        # display_save=True,
+        display_save=False,
         display_save_path="results/",
         autoplay=False,
     ):
